@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 #wrapper {
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 #sidebar-wrapper {
@@ -15,6 +18,11 @@
 
 #sidebar-wrapper .list-group {
   width: 15rem;
+}
+
+#sidebar-wrapper .list-group .list-group-item:hover {
+  background-color: #50f;
+  color: white;
 }
 
 #page-content-wrapper {
@@ -38,4 +46,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+#sidebarToggle {
+  cursor: pointer;
+}
+
+#top-navigation {
+  padding: 1.375rem 0.875rem;
 }
