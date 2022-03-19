@@ -1,0 +1,9 @@
+#actions-wrapped {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tabela {
+    padding: 1rem;
+}
