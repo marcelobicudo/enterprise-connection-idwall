@@ -25,6 +25,7 @@
 
 #sidebar-wrapper .list-group .list-group-item{
   background-color: #f5f5f5;
+  margin-bottom: 0px;
 }
 
 #sidebar-wrapper .list-group .list-group-item:hover {

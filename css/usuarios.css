@@ -4,6 +4,51 @@
     align-items: center;
 }
 
+#actions-wrapped button {
+    background-color: #50f;
+    border-color: #4100cf;
+}
+
+#actions-wrapped button:hover {
+    background-color: #6b31ff;
+}
+
 #tabela {
     padding: 1rem;
 }
+
+#tabela button {
+    background-color: #50f;
+    border-color: #4100cf;
+}
+
+#tabela button:hover {
+    background-color: #6b31ff;
+}
+
+#flexSwitchCheckChecked {
+    transform: scale(1.8);
+}
+
+#flexSwitchCheckChecked:checked {
+    background-color: #50f;
+    border-color: #4100cf;
+}
+
+#switch-text {
+    margin-left: 10px;
+}
+
+.page-item.active .page-link {
+    background-color: #50f;
+}
+
+.page-link {
+    color: #50f;
+}
+
+.page-link:hover {
+    background-color: #c8c2ff;
+    color: white;
+}
+
