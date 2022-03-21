@@ -9,15 +9,22 @@
   min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out;
+  background-color: #f5f5f5;
 }
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
+  background-color: #f5f5f5;
 }
 
 #sidebar-wrapper .list-group {
   width: 15rem;
+  background-color: #f5f5f5;
+}
+
+#sidebar-wrapper .list-group .list-group-item{
+  background-color: #f5f5f5;
 }
 
 #sidebar-wrapper .list-group .list-group-item:hover {
@@ -54,4 +61,15 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 #top-navigation {
   padding: 1.375rem 0.875rem;
+  background-color: #f5f5f5;
+}
+
+#index-content {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#text-content {
+  font-size: 20px;
+  font-weight: 600;
 }

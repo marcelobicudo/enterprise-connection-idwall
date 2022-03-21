@@ -14,7 +14,9 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light"><img src="./assets/logo.svg"/></div>
+                <div class="sidebar-heading border-bottom d-flex justify-content-center align-items-center">
+                    <img src="./assets/logo.svg"/>
+                </div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">protocolos</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">documentos</a>
@@ -30,13 +32,26 @@
             <!-- Page content wrapper-->
             <div id="page-content-wrapper">
                 <!-- Top navigation-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" id="top-navigation">
+                <nav class="navbar navbar-expand-lg navbar-light border-bottom" id="top-navigation">
                     <div class="container-fluid">
-                        <span class="navbar-toggler-icon" id="sidebarToggle"></span>
+                        <span class="navbar-toggler-icon" data-toggle="tooltip" title="Esconder menu" id="sidebarToggle"></span>
                     </div>
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
+                    <div class="d-flex justify-content-center" id="index-content">
+                        <img class="mx-3 d-flex justify-content-center" src="./assets/logotipo-idwall.webp" width="200px"/>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/app-development.png" width="256px" height="256px"/>   
+                    </div>
+                    <div class="d-flex justify-content-center" id="text-content">
+                        Backoffice
+                    </div>
+                    
+                        
+                    
+                    
                     <!-- <h1 class="mt-4">Simple Sidebar</h1>
                     <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
                     <p>
